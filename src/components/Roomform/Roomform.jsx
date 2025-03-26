@@ -189,7 +189,6 @@ const Roomform = () => {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="rounded-md capitalize border-[1.2px] border-white form-shadow text-slate-500 text-sm py-2 px-4 w-[22rem] xl:w-[35rem] mt-4 outline-none"
                   value={
                     userData === null
                       ? "Your name"
@@ -205,7 +204,7 @@ const Roomform = () => {
                 <input
                   type="text"
                   placeholder="Code"
-                  className="rounded-md border-[1.2px] border-white form-shadow text-slate-500 text-sm py-2 px-4 w-[22rem] xl:w-[35rem] mt-4 outline-none"
+                  className="rounded-md border-[1.2px] border-white text-black form-shadow text-sm py-2 px-4 w-[22rem] xl:w-[35rem] mt-4 outline-none"
                   value={roomCode}
                   onChange={(e) => setRoomCode(e.target.value)}
                 />

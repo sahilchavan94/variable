@@ -36,6 +36,10 @@ Variable is a online web based sharable code editor built for learning and writi
 -  Visual Studio code 
 - Figma 
 
-
+# Info 
+- Hosted the app and server, both on render
+- Sometimes the free instance shuts down due to no traffic
+- Click on the link below to make the server active again : 
+[variable backend] https://var-backend.onrender.com/
 
 
